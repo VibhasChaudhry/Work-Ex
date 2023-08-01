@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    <title>Activities</title>
+
+    <style>
+        
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .card {
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin: 50px 400px 100px 40px;
+      border-radius: 25px;
+    }
+
+    .sidebar {
+      position: fixed;
+      margin-top: 50px;
+      margin-left: 75%;
+      width: 290px;
+      height: 300px;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 15px;
+    }
+    
+    .sidebar a {
+        text-decoration: none;
+        color: #333; 
+    }
+    
+    .sidebar a:hover {
+        color: #007bff; 
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+  </style>
+    
+</head>
+<body>
+    <div class="topnav">
+        <a href="/Home.html">Home</a>
+        <a href="/About.html">About Us</a>
+        <a class="active" href="/Activities.html">Activities</a>
+        <a href="/Survey.html">Survey</a>
+      <div class="search-container">
+        <form action="">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    
+
+    <div class="sidebar">
+      <h3>Our Sidebar</h3>
+      <p>You can click on each activity to scroll to it</p>
+
+      <ul class="list-group">
+        <li class="list-group-item"><a href="#Activity1">Activity 1</a></li>
+        <li class="list-group-item"><a href="#Activity2">Activity 2</a></li>
+        <li class="list-group-item"><a href="#Activity3">Activity 3</a></li>
+      </ul>
+
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card" id="Activity1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, temporibus deserunt officia aut unde aliquid facere quos rem dicta praesentium sequi magni ratione eum expedita sunt repellendus esse itaque voluptate doloribus magnam assumenda. Architecto?
+          </p>
+        </div>
+        <div class="card" id="Activity2">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi et velit voluptas tempore, sequi assumenda rerum sit, ducimus, architecto quos eveniet illo nobis doloremque nihil culpa provident. Doloremque, iusto! Ipsa quaerat praesentium quisquam!</p>
+        </div>
+        <div class="card" id="Activity3">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi et velit voluptas tempore, sequi assumenda rerum sit, ducimus, architecto quos eveniet illo nobis doloremque nihil culpa provident. Doloremque, iusto! Ipsa quaerat praesentium quisquam!</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
